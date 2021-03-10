@@ -5,7 +5,7 @@ export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 
 # download PQRST segmentation repo
-git -C Arr pull || git clone --recurse-submodules https://github.com/LIU8606/arrhythmia-detection/tree/master Arr
+git -C Arr pull || git clone --recurse-submodules https://github.com/LIU8606/arrhythmia-detection Arr
 
 cd /Arr
 wget -O model.h5 https://github.com/LIU8606/arrhythmia-detection/releases/download/1.0.0/model.h5
